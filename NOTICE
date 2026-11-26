@@ -1,0 +1,9 @@
+Encore Manager is a user interface for Encore Tweaks.
+
+Encore Tweaks - Copyright (C) 2024-2026 Rem01Gaming, Apache License 2.0
+  Behaviour, file formats and command usage of this app follow the Encore Tweaks 5.2.2 WebUI.
+
+libsu - Copyright 2023 John "topjohnwu" Wu, Apache License 2.0
+  https://github.com/topjohnwu/libsu
+
+Jetpack Compose, AndroidX, kotlinx.coroutines, kotlinx.serialization - Apache License 2.0

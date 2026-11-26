@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- XArena Xtended angular "X" emblem: metallic-silver bar (NW-SE) crossing a neon-red bar
+     (NE-SW), both with chamfered (straight-cut) ends to match the cyberpunk angular brand
+     language used across the rest of the app (see ui/Theme.kt EncoreShapes). Sits inside the
+     108x108 adaptive-icon canvas, within the ~66dp safe zone so it is never clipped by the
+     launcher's mask. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Silver bar: top-left to bottom-right -->
+    <path
+        android:fillColor="#C9CED6"
+        android:pathData="M25.01,34.91 L73.09,82.99 L82.99,73.09 L34.91,25.01 Z" />
+
+    <!-- Red bar: top-right to bottom-left, drawn second so it crosses on top at the center -->
+    <path
+        android:fillColor="#FF1E38"
+        android:pathData="M34.91,82.99 L82.99,34.91 L73.09,25.01 L25.01,73.09 Z" />
+
+    <!-- Thin crimson outline on the red bar for edge definition -->
+    <path
+        android:strokeColor="#99001A"
+        android:strokeWidth="1.2"
+        android:fillColor="#00000000"
+        android:pathData="M34.91,82.99 L82.99,34.91 L73.09,25.01 L25.01,73.09 Z" />
+
+    <!-- Small bright glint where the two bars cross -->
+    <path
+        android:fillColor="#F5F5F7"
+        android:pathData="M54,47 L61,54 L54,61 L47,54 Z" />
+</vector>

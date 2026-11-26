@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Cyberpunk AMOLED Neon Red palette (mirrors ui/Theme.kt's EncoreColors for XML-only
+         consumers: the launcher icon background, the QS tile icon tint, etc.) -->
+    <color name="ic_launcher_background">#000000</color>
+
+    <color name="true_black">#000000</color>
+    <color name="carbon">#0D0D10</color>
+    <color name="obsidian">#141419</color>
+    <color name="obsidian_raised">#1B1B21</color>
+    <color name="hairline_dim">#2A2A32</color>
+
+    <color name="neon_red">#FF1E38</color>
+    <color name="electric_red">#FF003C</color>
+    <color name="crimson">#99001A</color>
+    <color name="crimson_deep">#4D0010</color>
+
+    <color name="text_primary">#F5F5F7</color>
+    <color name="text_label">#8E8E93</color>
+    <color name="amber">#FFB300</color>
+    <color name="lime">#39FF6A</color>
+    <color name="cyan">#00E5FF</color>
+
+    <!-- XArena Xtended metallic-silver brand accent (logo, headers, dividers) -->
+    <color name="silver">#C9CED6</color>
+    <color name="silver_dim">#7D828C</color>
+</resources>

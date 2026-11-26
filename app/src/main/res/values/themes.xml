@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.EncoreManager" parent="android:Theme.DeviceDefault.DayNight">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <!-- AMOLED true black behind the Compose content, so the very first frame (and any
+             sliver visible around system bars / during rotation) is black, not a flash of the
+             platform's default theme background. minSdk is 29, so both bars' icons can always
+             be set light (the content behind them is always black here). -->
+        <item name="android:windowBackground">@color/true_black</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+</resources>
